@@ -11,7 +11,7 @@
     <!-- daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <!-- font poppins -->
     <style>
         .font-poppins{
             font-family: "Poppins", sans-serif;
@@ -27,7 +27,7 @@
                     colors: {
                         clifford: "#da373d",
                         'btn-primary': '#E76F51',
-                        background: 'rgba(231, 111, 82, 0.1)',
+                        background: 'rgba(233, 118, 87, 0.1)',
                         color2: 'rgba(38, 70, 83, 10)',
                     },
                 },
@@ -38,7 +38,7 @@
 </head>
 <body class="font-poppins">
     <!-- header section -->
-     <header class="md:container mx-auto">
+     <header class="md:container mx-auto my-5">
         <nav>
             <div class="navbar bg-base-100 shadow-sm">
                 <div class="flex-1">
@@ -158,7 +158,64 @@
      </header>
 
     <!-- main section -->
-     <main></main>
+     <main class="md:container mx-auto">
+      <!-- our collections/would be done later -->
+
+      <!-- Latest Four Wheels in the hood -->
+       <section class="my-24">
+        <h3 class="text-5xl font-bold text-center mb-12">
+          Latest Four Wheels
+        </h3>
+        <!-- card -->
+         <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <!-- card-1 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="/images/others/image1.jpeg"
+                alt="FourWheel" />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title text-xl font-semibold">Desert MTV</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions">
+                <a class="btn bg-color2 text-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="/images/others/image2.jpg"
+                alt="FourWheel" />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title text-xl font-semibold">Desert MTV</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions">
+                <a class="btn bg-color2 text-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="/images/others/image3.jpeg"
+                alt="FourWheel" />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title text-xl font-semibold">Desert MTV</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions">
+                <a class="btn bg-color2 text-white">Read More</a>
+              </div>
+            </div>
+          </div>
+         </div>      
+       </section>
+     </main>
 
     <!-- footer section -->
      <footer></footer>
